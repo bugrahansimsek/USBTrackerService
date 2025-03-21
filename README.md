@@ -1,4 +1,4 @@
-# 🛡️ USB Tracker Service (Windows)  
+# 🛡️ USB Tracker Service (Windows)   
 
 Bu proje, **Windows işletim sistemi üzerinde çalışan bir servis** olarak geliştirilmiş olup, **USB cihazlarının takılma ve çıkarılma olaylarını tespit ederek sistem günlüklerine kaydeder**. Servis arka planda çalışır ve kullanıcı etkileşimi olmadan sistem güvenliğini artırmak için kullanılabilir.
 
