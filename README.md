@@ -38,12 +38,14 @@ Bu proje, **Windows işletim sistemi üzerinde çalışan bir servis** olarak ge
 ## 🧾 Örnek Log Çıktısı
 
 Servis çalıştığında `C:\USBTrackerLog.txt`
-[+] USB Connected: PC: LAPTOP-12345 | IP: 192.168.1.25 | Device: USB Mass Storage Device | Manufacturer: SanDisk | VID: 0781 | PID: 5581 | Serial: 1234567890ABCDEF
-[-] USB Disconnected: PC: LAPTOP-12345 | IP: 192.168.1.25 | Device: USB Mass Storage Device | Manufacturer: SanDisk | VID: 0781 | PID: 5581 | Serial: 1234567890ABCDEF
+
+[+] USB Connected: PC: LAPTOP-12345 | IP: 123.456.7.89 | Device: USB Mass Storage Device | Manufacturer: SanDisk | VID: 0781 | PID: 5581 | Serial: 1234567890ABCDEF
+
+[-] USB Disconnected: PC: LAPTOP-12345 | IP: 123.456.7.89 | Device: USB Mass Storage Device | Manufacturer: SanDisk | VID: 0781 | PID: 5581 | Serial: 1234567890ABCDEF
 
 ---
 
-## 📦 Kurulum ve Yönetim (Manual)  
+## 📦 Kurulum ve Yönetim  
 
 > ⚠ **Not:** Servisi yüklemek, başlatmak ve kaldırmak için **yönetici yetkileri** gereklidir.
 
@@ -57,7 +59,7 @@ sc delete USBTrackerService
 
 ---
 
-## 🔐 Gelecek Geliştirmeler (Planned Features)
+## 🔐 Gelecek Geliştirmeler 
 
 📌 **TCP/IP Tabanlı Veri Aktarımı**  
 İstemci servisleri tarafından algılanan tüm USB olaylarının, merkezi yönetim bilgisayarına **gerçek zamanlı olarak TCP/IP protokolü üzerinden** gönderilmesi sağlanacak.
